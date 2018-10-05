@@ -1,7 +1,8 @@
 */ Styles for NEAArts Remake */
 
 
-
+     @import url('https://fonts.googleapis.com/css?family=Oswald:300');
+        @import url('https://fonts.googleapis.com/css?family=EB+Garamond');  
             
             * {
                 box-sizing: border-box;
