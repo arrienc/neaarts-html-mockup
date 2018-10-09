@@ -88,12 +88,15 @@
                 width: 100%;
                 overflow: auto;
                 margin-top: 140px;
+                padding-left: 50px;
+                padding-right: 50px;
             }
             
             #issue {
                 overflow: auto;
                 max-width: 880px;
                 float: left;
+                margin-right: 0px;
             }
             
             .story {      
