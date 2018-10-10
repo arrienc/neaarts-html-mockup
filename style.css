@@ -70,12 +70,19 @@
                 width: 100%;
             }
             
-            #main img {
+            #cover {
                 float:left;
-                margin-right: 50px;
+                margin-left: 60px;
+                max-width:650px;
+            }
+
+            #about {
+                float: right;
+                margin-right: 40px;
+                max-width:470px;
             }
             
-            #main p {
+            #about p {
                 font-family: EB Garamond, Book Antiqua, serif;
                 font-size: 24px;
                 font-weight:200;
@@ -87,7 +94,7 @@
             #nav {
                 width: 100%;
                 overflow: auto;
-                margin-top: 140px;
+                margin-top: 240px;
                 padding-left: 50px;
                 padding-right: 50px;
             }
