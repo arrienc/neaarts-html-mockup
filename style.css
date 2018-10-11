@@ -9,7 +9,7 @@
             }
             
             body {
-                width:1300px;
+                width:1200px;
                 margin:auto;
             }
 
@@ -20,31 +20,34 @@
              /*   border: 1px dotted red;  */
             }
             
-        #toNEA p {
-            float: right;
-            font-family: Oswald;
-            font-weight:300;
-            font-size: 18px;
-            color:#777;
-            margin-right: 20px;
-            }
+            #toNEA p {
+                float: right;
+                font-family: Oswald;
+                font-weight:300;
+                font-size: 20px;
+                color:#777;
+                margin-right: 20px;
+                }
             
             
-            #header {
-                width: 100%;
-                border-bottom: solid #888 1px;
-            }
+        #header {
+            width: 100%;
+            border-bottom: solid #888 1px;
+        }
              
             #header p {
                font-family: 'EB Garamond', 'Book Antiqua', serif ;
-                font-size: 30px;
+                font-size: 36px;
                 display: block;
                 margin: auto;
                 text-align: center;
-                
                 color: #525252;
             }
-            
+
+#issue {
+    margin:auto;
+    font-size:18px;
+}
                         
             h1 {
                 
@@ -75,24 +78,50 @@
             #cover {
                 float:left;
                 margin-left: 60px;
-                margin-top:70px;
+                margin-top:0px;
                 max-width:650px;
             }
 
-            #about {
-                float: right;
-                margin-right: 40px;
-                max-width:470px;
-            }
+        #about {
+            float: right;
+            margin-right: 60px;
+            max-width:360px;
+            margin-top: 100px;
+        }
             
-            #about p {
-                font-family: EB Garamond, Book Antiqua, serif;
-                font-size: 24px;
-                font-weight:200;
-                line-height: 1.6;
-                color: #666;
-                margin-top: 0px;
-            }
+        q {
+            font-family: EB Garamond, Book Antiqua, serif;
+            font-size: 32px;
+            font-weight:200;
+            line-height: 1.2;
+            color: #666;
+
+            margin-bottom:40px;
+            display:block;
+        }
+
+        #read a {
+            display:block; 
+            font-family: Oswald, trebuchet MS; 
+            font-size:20px; 
+            color: #888;
+            text-decoration: none;
+        }
+        #read a:hover {
+            text-decoration: underline;
+        }
+
+
+#separate {
+    
+    border-bottom: #777 solid 1px;
+    padding-left:60px;
+}
+
+#separate p  a{
+    font-family: Trebuchet MS, helvetica, sans-serif;
+    color: #878787;
+}
             
             #nav {
                 width: 100%;
