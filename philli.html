@@ -14,79 +14,7 @@
         @import url('https://fonts.googleapis.com/css?family=Oswald:300');
         @import url('https://fonts.googleapis.com/css?family=EB+Garamond'); 
         @import url('https://fonts.googleapis.com/css?family=Lora');
-        
-        #mainimg {
-            margin: 10px 0 0px 0px;
-        }
-        
-        p.breadcrumb {
-            font-family: Trebuchet MS, helvetica, sans-serif;
-            color: #878787;
 
-        }
-                       
-        p.breadcrumb a {
-            text-decoration: none;
-            color: inherit;
-        }
-                 
-        p.breadcrumb a:hover {
-            text-decoration:underline;
-        }
-               
-        
-        h1 {       
-            margin-top: 60px;
-        }
-        
-       h2.story-subtitle {
-            text-align: center;
-            margin: -80px 0 50px 0;
-        }
-        
-        .story-main {
-        width: 670px; 
-        margin: auto;
-        margin-top: 40px ;
-            margin-bottom: 20px;
-        }
-        
-        .story-main p {
-            font-family: EB Garamond, Book Antiqua, serif;
-            font-size: 24px;
-            font-weight:200;
-            line-height: 1.6;
-            color: #666;
-            margin-top: 0px;
-        }
-        
-        #by {
-        font-family: Lora, EB Garamond, Athelas, Book Antiqua, serif;
-        font-size: 20px; 
-        color: #555;
-        text-align: center;
-        border-top: 1px solid #555;
-        width:60%;
-        margin:auto;
-        margin-bottom: 50px;  
-        }
-        
-        .img-container {
-            max-width: 950px;
-            margin: auto;
-            margin-top: 60px;
-            
-        }
-        
-        .caption {
-            font-family: Trebuchet MS, Oswald;
-            font-size: 14px;
-            color: #878787;
-            margin-top: 6px;
-        }
-        
-
-    
     </style> 
     
 </head>
@@ -94,19 +22,22 @@
 <body>
     
     
- <!--       -->  
-<div id="toNEA">
+<!--       -->  
+    <div id="toNEA">
     <p style="text-align:right;">National Endowment for the Arts <br>Home Page&nbsp; &raquo;</p>  
-</div>
+    </div>
     
-    
-<div id="header">  
-    <p>NEA Arts Magazine</p>   
-</div>
+    <div id="header">
+     NEA Arts Magazine
+    </div>
+        
+    <div id="number">2018 &mdash; Number 2</div>
+        
+        
 
 <p class="breadcrumb">Home » NEA Arts Magazine » <a href="index.html"  >Community Art: A Look at Public Art in America</a></p>
     
-<img src="img/mural-philli.png" id="mainimg">
+<img src="img/mural-philli.png" class="mainimg">
 <div class="caption">How to Turn Anything into Something Else (2012) by the Miss Rockaway Armada on 207 North Broad Street, part of the Mural Arts Philadelphia program. Photo by Steve Weinik, courtesy of Mural Arts Philadelphia </div>
     
 <h1>Mural Arts Philadelphia</h1> 
@@ -139,7 +70,7 @@ In the 30 years since, that small clean-up program has bloomed into Mural Arts P
     
      <div class="img-container">
 
-    <img src="img/mural-2-philli.png" id="mainimg">
+    <img src="img/mural-2-philli.png" class="otherimg">
     <div class="caption">Mural Arts teaching artist Brad Carney and students from Philadelphia's Northeast High School install a panel of artist Joe Boruchow's Smoke Signals at 448 North 10th Street. Photo by Steve Weinik, courtesy of Mural Arts Philadelphia </div>    
 
     </div>   <!--// .img-container --> 
@@ -163,7 +94,7 @@ Through her work with Mural Arts, Golden has developed an understanding of the u
      
      <div class="img-container">
 
-    <img src="img/mural-3-philli.png" id="mainimg">
+    <img src="img/mural-3-philli.png" class="otherimg">
     <div class="caption">A performance of <em>Radio Silence</em> by Michael Rakowitz at Philadelphia’s Independence Mall on July 30, 2017. Photo by Steve Weinik, courtesy of Mural Arts Philadelphia</div>    
 
     </div>   <!--// .img-container --> 
@@ -194,7 +125,7 @@ Many of the group members also appear as recognizable figures in the mural, furt
      
      <div class="img-container">
 
-    <img src="img/mural-4-philli.png" id="mainimg">
+    <img src="img/mural-4-philli.png" class="otherimg">
     <div class="caption">Military veterans work with youth to paint the city’s Corporal Michael J. Crescenz VA Medical Center. Photo by Steve Weinik, courtesy of Mural Arts Philadelphia</div>    
 
     </div>   <!--// .img-container --> 
@@ -225,12 +156,12 @@ Mural Arts’ projects would not be possible without partnerships. In addition t
     
 <div id="nav">
     
-    <div id="issue">
-        
-        <h2>In This Issue</h2>
+        <div id="stories">
+        <h2>Stories</h2>
+        </div>
     
         <div class="story">
-            <img src="img/philli.png">
+            <a href="philli.html"><img src="img/philli.png"   class="story-thumb"></a>
             <p class="title"><a href="philli.html">Mural Arts Philadelphia</a></p>
             <p class="subtitle">Empowering Communities through Art</p>  
         </div>
@@ -248,8 +179,7 @@ Mural Arts’ projects would not be possible without partnerships. In addition t
             <p class="subtitle">Haida House Post Project</p>  
         </div>
 
-        <div style="clear:both; height: 30px;"></div>
-        
+        <div style="clear:both; height: 30px;"></div>      
         
         <div class="story">
             <img src="img/nourishing.png">
@@ -262,31 +192,31 @@ Mural Arts’ projects would not be possible without partnerships. In addition t
             <p class="title">Making Connections</p>
             <p class="subtitle">The Process of Creating Public Art in Martin County, Florida</p>  
         </div>
-
-    
-    </div> <!-- //#issue  --> 
-    
-    
-    <div id="av">
-         
-        <h2>Audio/Video</h2>
          
         <div class="story">
             <img src="img/hope.png">
-            <p class="subtitle">Focus: HOPE Excel Photography Program: Students Train Their Eyes on Detroit</p>  
+            <p class="title">Focus</p>
+            <p class="subtitle">HOPE Excel Photography Program: Students Train Their Eyes on Detroit</p>  
         </div>
         
+        
+        <div style="clear:both; height: 30px;"></div>      
+        
+    
+    
         <div class="story">
             <img src="img/donrico.png">
-            <p class="subtitle">Focus: HOPE through the Eyes of DonRico Hawkins</p>  
+            <p class="title">Focus</p>
+            <p class="subtitle">HOPE through the Eyes of DonRico Hawkins</p>  
         </div>
+    
+
        
         <div class="story">
             <img src="img/childrens.png">
-            <p class="subtitle">Missoula Children's Theatre: Magic Happens When Kids Do Theater</p>  
+            <p class="title">Missoula Children's Theatre</p>
+            <p class="subtitle">Magic Happens When Kids Do Theater</p>  
         </div>
-       
-    </div> <!-- //#av  -->
     
     
         

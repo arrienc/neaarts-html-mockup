@@ -8,10 +8,10 @@
                 box-sizing: border-box;
             }
             
-            body {
-                width:1200px;
-                margin:auto;
-            }
+    body {
+        max-width:1200px;
+        margin:auto;
+    }
 
         #toNEA {
                 width: 100%;
@@ -29,31 +29,24 @@
                 margin-right: 20px;
                 }
             
-            
-        #header {
-            width: 100%;
-            border-bottom: solid #888 1px;
-        }
-             
-            #header p {
-               font-family: 'EB Garamond', 'Book Antiqua', serif ;
-                font-size: 36px;
-                display: block;
-                margin: auto;
-                text-align: center;
-                color: #525252;
-            }
 
-        #number {
-            width: 100%;
-            text-align: center;
-            font-size:22px;
-            font-family: EB garamond;
-            font-weight:light;
-            margin-top: 15px;
-            color: #666;
-        }
-                        
+    #number, #header {
+        width: 100%;
+        text-align: center;
+        font-size:22px;
+        font-family: 'EB Garamond', 'Book Antiqua', serif ;
+        margin-top: 15px;
+        color: #666;
+    }
+
+             
+    #header {
+        font-size: 36px;
+        color: #525252;
+        border-bottom: solid #888 1px;
+    }  /*  */
+
+
             h1 {
                 
                 font-family:   'EB Garamond', 'Book Antiqua', serif;
@@ -74,24 +67,48 @@
                 
             }
             
-            #main {
-                width: 100%;
-                 overflow: auto;
-            /*    border: red solid 2px;  */
-            }
+    #main {
+        width: 1020px;
+        margin: auto;
+        overflow: auto;
+    /*    border: purple solid 2px; */
+    }
+
+#nav {
+width: 910px;
+margin: auto;
+margin-top: 80px;
+overflow: auto;
+}
+
+#stories {
+    width: 830px;
+    border-bottom: solid #888 1px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+#stories h2 {
+    text-align:center;
+    margin-bottom: 20px;
+    font-size: 36px;
+}
             
-            #cover {
-                float:left;
-                margin-left: 60px;
-                margin-top:0px;
-                max-width:650px;
-            }
+        #cover {
+            float:left;
+            margin-top:0px;
+            max-width:650px;
+        }
+
+        #cover img {
+            max-width: 600px;
+        }
 
         #about {
-            float: right;
-            margin-right: 60px;
+            float: left;
             max-width:360px;
             margin-top: 100px;
+            margin-left:60px;
         }
             
         q {
@@ -105,49 +122,32 @@
             display:block;
         }
 
-        #read a {
-            display:block; 
+        #read a, .links, .links a {
+             
             font-family: Oswald, trebuchet MS; 
             font-size:20px; 
             color: #888;
             text-decoration: none;
         }
-        #read a:hover {
+        #read a:hover, .links a:hover {
             text-decoration: underline;
         }
 
-
-#separate {
+.links  {
+    margin-top: 10px;
+    font-size: 16px;
     
-    border-bottom: #777 solid 1px;
-    padding-left:60px;
 }
+            
+        .story {      
+            width: 250px;
+            float: left;
+            margin-left: 40px;
+        }
 
-#separate p  a{
-    font-family: Trebuchet MS, helvetica, sans-serif;
-    color: #878787;
+.story-thumb:hover {
+    opacity: 0.7; 
 }
-            
-            #nav {
-                width: 100%;
-                overflow: auto;
-                margin-top: 140px;
-                padding-left: 50px;
-                padding-right: 50px;
-            }
-            
-            #issue {
-                overflow: auto;
-                max-width: 880px;
-                float: left;
-                margin-right: 0px;
-            }
-            
-            .story {      
-                width: 250px;
-                float: left;
-                margin-right: 40px;
-            }
             
         .title {
             font-family: EB Garamond, Book Antiqua, athelas;
@@ -173,12 +173,77 @@
                 color: #000;
             }
         
-        #av {
-            margin-left: 80px;
-            overflow: auto;
-            float: left;
-            max-width: 300px;
-            padding-left: 40px;
-            border-left: 1px solid #777;
-            }
+
+        .mainimg, .otherimg {
+            width:100%;
+        }
+        
+        .breadcrumb {
+            display: block;
+            font-family: Trebuchet MS, helvetica, sans-serif;
+            color: #878787;
+            margin-bottom: 20px;
+
+        }
+                       
+        .breadcrumb a {
+            text-decoration: none;
+            color: inherit;
+        }
+                 
+        .breadcrumb a:hover {
+            text-decoration:underline;
+        }
+               
+        
+        h1 {       
+            margin-top: 60px;
+        }
+        
+       h2.story-subtitle {
+            text-align: center;
+            margin: -80px 0 50px 0;
+        }
+        
+        .story-main {
+        width: 670px; 
+        margin: auto;
+        margin-top: 40px ;
+            margin-bottom: 20px;
+        }
+        
+        .story-main p {
+            font-family: EB Garamond, Book Antiqua, serif;
+            font-size: 24px;
+            font-weight:200;
+            line-height: 1.6;
+            color: #666;
+            margin-top: 0px;
+        }
+        
+        #by {
+        font-family: Lora, EB Garamond, Athelas, Book Antiqua, serif;
+        font-size: 20px; 
+        color: #555;
+        text-align: center;
+        border-top: 1px solid #555;
+        width:60%;
+        margin:auto;
+        margin-bottom: 50px;  
+        }
+        
+        .img-container {
+            max-width: 950px;
+            margin: auto;
+            margin-top: 60px;
+            
+        }
+        
+        .caption {
+            font-family: Trebuchet MS, Oswald;
+            font-size: 14px;
+            color: #878787;
+            margin-top: 6px;
+        }
+        
             
