@@ -267,4 +267,12 @@ overflow: auto;
             margin-top: 6px;
         }
         
-            
+.firstcharacter {
+  font-family: EB Garamond, Athelas, Book Antiqua, serif;
+  float: left;
+  font-size: 70px;
+  line-height: 60px;
+  padding-top: 10px;
+  padding-right: 12px;
+    color: #777;
+}  
