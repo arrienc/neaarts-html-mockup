@@ -159,16 +159,40 @@ overflow: auto;
     font-size: 16px;
     
 }
-            
-        .story {      
-            width: 250px;
-            float: left;
-            margin-left: 40px;
+
+
+
+.story {   /*  Container for Story items in nav  */   
+    width: 250px;
+    float: left;
+    margin-left: 40px;
+}
+
+        /* #####  Hover effect - darken image ##### */
+
+        .img-a {
+            position:relative;
+            display: block;
+        }
+        .img-a img {
+            width:100%;
+            vertical-align:top;
+        }
+        .img-a:after {
+            content:'\A';
+            position:absolute;
+            width:100%; height:100%;
+            top:0; left:0;
+            background:rgba(0,0,0,0.4);
+            opacity:0;
+            transition: all 0.4s;
+            -webkit-transition: all 0.4s;
+        }
+        .img-a:hover:after {
+            opacity:1;
         }
 
-.story-thumb:hover {
-    opacity: .8; 
-}
+
             
         .title {
             font-family: EB Garamond, Book Antiqua, athelas;
@@ -276,3 +300,4 @@ overflow: auto;
   padding-right: 12px;
     color: #777;
 }  
+
